@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags untuk pengaturan halaman -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Judul halaman -->
+    <title>Pengembangan Desain Web</title>
+    <!-- Memuat file CSS eksternal -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Bagian utama tabel -->
+    <main class="table" id="customers_table">
+        <!-- Bagian header tabel -->
+        <section class="table__header">
+            <!-- Judul tabel -->
+            <h1>TABEL HUTANG</h1>
+            <!-- Input pencarian -->
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="images/search.png" alt="">
+            </div>
+        </section>
+        <!-- Bagian isi tabel -->
+        <section class="table__body">
+            <table>
+                <thead>
+                    <!-- Baris header -->
+                    <tr>
+                        <!-- Kolom nomor -->
+                        <th> No <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- Kolom nama -->
+                        <th> Nama <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- Kolom lokasi -->
+                        <th> Lokasi <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- Kolom jatuh tempo -->
+                        <th> Jatuh Tempo <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- Kolom status -->
+                        <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- Kolom total -->
+                        <th> Total <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Baris data -->
+                    <tr>
+                        <!-- Kolom nomor -->
+                        <td> 1 </td>
+                        <!-- Kolom nama -->
+                        <td><img src="images/Brunomars.jpg" alt=""> Bruno Mars </td>
+                        <!-- Kolom lokasi -->
+                        <td> Amerika </td>
+                        <!-- Kolom jatuh tempo -->
+                        <td> 20 Juli, 2024 </td>
+                        <!-- Kolom status -->
+                        <td>
+                            <!-- Status dengan kelas "blmlunas" -->
+                            <p class="status blmlunas">Belum Lunas</p>
+                        </td>
+                        <!-- Kolom total -->
+                        <td> <strong> Rp 170.000.000 </strong></td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td> <!-- Nomor urut -->
+                        <td><img src="images/Thewekend.jpg" alt=""> The Weeknd </td> <!-- Gambar dan nama artis -->
+                        <td> Kanada </td> <!-- Negara asal -->
+                        <td> 27 Aug, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status blmlunas">Belum Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong> Rp 100.000.000 </strong> </td> <!-- Harga tiket -->
+                    </tr>
+                
+                    <!-- Baris kedua: Informasi tentang konser John Legend -->
+                    <tr>
+                        <td> 3</td> <!-- Nomor urut -->
+                        <td><img src="images/Johnlegend.jpg" alt=""> John Legend </td> <!-- Gambar dan nama artis -->
+                        <td> Amerika </td> <!-- Negara asal -->
+                        <td> 14 Des, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status blmlunas"> Belum Lunas </p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 455.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                
+                    <!-- Baris ketiga: Informasi tentang konser Adele -->
+                    <tr>
+                        <td> 4</td> <!-- Nomor urut -->
+                        <td><img src="images/Adele.jpg" alt=""> Adele </td> <!-- Gambar dan nama artis -->
+                        <td> London </td> <!-- Negara asal -->
+                        <td> 25 Juni, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status lunas">Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>RP 250.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                
+                    <!-- Baris keempat: Informasi tentang konser Justin Bieber -->
+                    <tr>
+                        <td> 5</td> <!-- Nomor urut -->
+                        <td><img src="images/Justinbieber.jpg" alt=""> Justin Bieber </td> <!-- Gambar dan nama artis -->
+                        <td> Kanada </td> <!-- Negara asal -->
+                        <td> 10 Nov, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status lunas">Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 195.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                
+                    <!-- Baris kelima: Informasi tentang konser Beyonce -->
+                    <tr>
+                        <td> 6</td> <!-- Nomor urut -->
+                        <td><img src="images/beyonce.jpg" alt=""> Beyonce </td> <!-- Gambar dan nama artis -->
+                        <td> Amerika </td> <!-- Negara asal -->
+                        <td> 17 Mei, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status blmlunas">Belum Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 940.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                    <!-- Baris pertama: Informasi tentang konser Jungkook -->
+                    <tr>
+                        <td> 7</td> <!-- Nomor urut -->
+                        <td><img src="images/jungkok.jpg" alt=""> Jungkook </td> <!-- Gambar dan nama artis -->
+                        <td> Korea Selatan </td> <!-- Negara asal -->
+                        <td> 20 Mei, 2024 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status lunas">Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 886.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                    <!-- Baris kedua: Informasi tentang konser Alan Walker -->
+                    <tr>
+                        <td> 8</td> <!-- Nomor urut -->
+                        <td><img src="images/alanwalker.jpg" alt=""> Alan Walker </td> <!-- Gambar dan nama artis -->
+                        <td> Norwegia </td> <!-- Negara asal -->
+                        <td> 10 Feb, 2025 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status blmlunas">Belum Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 788.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                    <!-- Baris ketiga: Informasi tentang konser Martin Garrix -->
+                    <tr>
+                        <td> 9</td> <!-- Nomor urut -->
+                        <td><img src="images/Martingarrix.jpg" alt=""> Martin Garrix </td> <!-- Gambar dan nama artis -->
+                        <td> Belanda </td> <!-- Negara asal -->
+                        <td> 29 Dec, 2025 </td> <!-- Tanggal konser -->
+                        <td>
+                            <p class="status blmlunas">Belum Lunas</p> <!-- Status pembayaran -->
+                        </td>
+                        <td> <strong>Rp 403.000.000</strong> </td> <!-- Harga tiket -->
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script> <!-- Menghubungkan dengan file JavaScript eksternal -->
+
+</body>
+
+</html>
